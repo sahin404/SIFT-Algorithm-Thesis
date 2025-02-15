@@ -2,8 +2,8 @@
 # ✅ Feature Detection: Used SIFT (Scale-Invariant Feature Transform) to extract keypoints and descriptors.
 # ✅ Feature Matching: Used BFMatcher (Brute Force Matcher) to match features between two images.
 # ✅ Matching Accuracy: Calculated the percentage of correct matches based on the number of matched features.
-# ✅ knnMatch: Find two best matches for each descriptor
-# ✅ Apply Lowe’s ratio test (0.75 threshold)
+# ✅ KNN Matching: Used k-Nearest Neighbors (k=2) to find the two best matches for each descriptor.
+# ✅ Lowe's Ratio Test: Applied Lowe's ratio test to filter out good matches by comparing the distance between the two best matches.
 # TODO: Only change the Images path
 
 #Raw SIFT
